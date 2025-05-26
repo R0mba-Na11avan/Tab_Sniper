@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Blocker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Auto Tab Closer</h1>
+        <label class="switch">
+            <input type="checkbox" id="toggleSwitch">
+            <span class="slider"></span>
+        </label>
+        <div class="timerBox">
+            <p id="countdown">10:00</p>
+            <input type="button" id="timerButton" value="Start Timer">
+        </div>
+        <ul id="urlList"></ul>
+        <input type="text" id="urlInput" placeholder="Enter URL">
+        <button id="addUrl">Add</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
